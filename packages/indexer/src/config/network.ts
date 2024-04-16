@@ -1248,6 +1248,21 @@ export const getNetworkSettings = (): NetworkSettings => {
             ),
           ]);
         },
+        whitelistedCurrencies: new Map([
+          [
+            "0x8ef069e433022cf3625a086096c3d9ec96da0160",
+            {
+              contract: "0x8ef069e433022cf3625a086096c3d9ec96da0160",
+              name: "ZED Token",
+              symbol: "ZED",
+              decimals: 18,
+              metadata: {
+                image:
+                  "https://bafkreidcljrhz7hq4h5rarxgxd63tail24mqawllwhxfrvr3esfv2nvyiy.ipfs.nftstorage.link/",
+              },
+            },
+          ],
+        ]),
       };
     }
     // Arbitrum Nova
